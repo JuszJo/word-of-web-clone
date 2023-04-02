@@ -277,3 +277,38 @@ button:hover {
     background-color: #CC4F2E;
     color: white;
 }
+
+#get-to-work-section {
+    color: white;
+    background-color: #E55934;
+    display: flex;
+    justify-content: start;
+    max-width: 2000px;
+    margin: auto;
+    gap: 4rem;
+}
+
+#get-to-work-image-section {
+    height: 29rem;
+    width: 50%;
+}
+
+#get-to-work-image-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 20rem;
+}
+
+#get-to-work-text-section h2, #get-to-work-text-section p {
+    margin-bottom: 2rem;
+}
+
+
+#get-to-work-text-section h2 {
+    margin-top: 7.5rem;
+}
+
+#get-to-work-text-section p {
+    margin-bottom: 1.5rem;
+}
