@@ -68,6 +68,12 @@ button {
     border: none;
     background-color: #E55934;
     padding: 0.9rem 1.2rem;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #CC4F2E;
 }
 
 .container {
@@ -128,7 +134,7 @@ button {
 }
 
 .tiny-headers {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -175,13 +181,16 @@ button {
     gap: 0.5rem;
 }
 
+.transition {
+    transition: all ease-in-out 0.25s;
+}
+
 .cards {
     background-color: #f2ede7;
     flex-basis: 26%;
     padding: 2.5rem 2rem;
     margin-top: 1.5rem;
     cursor: pointer;
-    transition: all ease-in-out 0.25s;
 }
 
 .cards img {
@@ -195,13 +204,76 @@ button {
 #founder-section {
     background-color: #050041;
     color: white;
+    text-align: right;
+    padding: 5rem 0;
 }
 
 #founder-flex {
     display: flex;
     justify-content: center;
+    gap: 4rem;
+
 }
 
 #founder-image {
-    width: 30rem;
+    width: 35rem;
+    height: 35rem;
+    object-fit: cover;
+}
+
+#founder-section h2 {
+    margin-top: 1rem;
+}
+
+#founder-section p:nth-child(3), #founder-section p:nth-child(4), #founder-section button {
+    margin-top: 2rem;
+}
+
+#testimonials-section {
+    color: #050041;
+    text-align: center;
+    background-color: #f2ede7;
+    padding: 5rem;
+}
+
+#testimonials-section h2 {
+    margin-top: 1rem;
+}
+
+#no-pun {
+    font-size: 1.5rem;
+    font-style: italic;
+    max-width: 41rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#comment {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.flickity-button-icon {
+    cursor: pointer;
+    width: 1rem;
+    fill: #E55934;
+    border: 1px solid #E55934;
+    border-radius: 100%;
+    padding: 0.9rem;
+    margin: 2rem 0.25rem;
+}
+
+.flickity-button-icon:hover {
+    background-color: #E55934;
+    fill: white;
+}
+
+.white-button {
+    background-color: white;
+    color: #E55934;
+}
+
+.white-button:hover {
+    background-color: #CC4F2E;
+    color: white;
 }
