@@ -165,6 +165,10 @@ button:hover {
     margin-top: 1rem;
 }
 
+.learn-more {
+    padding: 0.9rem 2rem;
+}
+
 #services-section {
     padding-bottom: 5rem;
 }
@@ -271,6 +275,7 @@ button:hover {
 .white-button {
     background-color: white;
     color: #E55934;
+    padding: 0.9rem 2rem;
 }
 
 .white-button:hover {
