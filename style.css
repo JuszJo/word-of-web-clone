@@ -322,3 +322,42 @@ button:hover {
     margin-bottom: 1.5rem;
     max-width: 30rem;
 }
+
+footer {
+    background-color: #050041;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+#footer-image-div img{
+    width: 15rem;
+}
+
+#footer-links-div, #footer-socials-div, #copyright-div {
+    margin-top: 1.3rem;
+}
+
+footer a{
+    color: #bac5fe;
+    margin: 0 1rem;
+}
+
+#footer-socials-div {
+    margin-top: 1.4rem;
+}
+
+#footer-socials-div img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 1.25rem;
+}
+
+#copyright-div {
+    margin-top: 3rem;
+}
+
+footer p {
+    color: #bac5fe;
+    font-size: 0.8rem;
+}
