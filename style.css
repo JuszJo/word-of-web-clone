@@ -283,14 +283,18 @@ button:hover {
     color: white;
 }
 
+#almost-wrap {
+    background-color: #E55934;
+}
+
 #get-to-work-section {
     color: white;
     background-color: #E55934;
     display: flex;
     justify-content: start;
     max-width: 2000px;
-    margin: auto;
     gap: 4rem;
+    margin: auto;
 }
 
 #get-to-work-image-section {
@@ -316,4 +320,5 @@ button:hover {
 
 #get-to-work-text-section p {
     margin-bottom: 1.5rem;
+    max-width: 30rem;
 }
