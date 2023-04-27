@@ -102,10 +102,6 @@ button:hover {
     position: relative;
 }
 
-.hero-image {
-    /* position: absolute; */
-}
-
 #image-cont-1, #image-cont-2, #image-cont-3, #image-cont-4 {
     display: inline-block;
     height: auto;
@@ -439,18 +435,6 @@ footer p {
         display: none;
     }
 
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 2.25rem;
-    }
-
-    .p {
-        font-size: 1rem;
-    }
-
     #hero-section {
         padding-top: 2rem;
     }
@@ -474,7 +458,7 @@ footer p {
     }
 
     #hero-section p {
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
 
     #process-section {
@@ -486,22 +470,21 @@ footer p {
     }
 
     #process-section p {
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
 
     #process-image-section {
         display: none;
     }
 
-    #services-card-section .cards:nth-child(1) {
-        margin-top: 1rem;
+    #services-text-section {
+        padding-bottom: 1rem;
     }
 
     .cards {
-        flex-basis: 100%;
+        flex-basis: 40%;
         margin-top: 0;
     }
-
 
     #founder-flex {
         justify-content: center;
@@ -546,7 +529,77 @@ footer p {
     }
 }
 
+@media (max-width: 750px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    #process-section h2 {
+        font-size: 3rem;
+    }
+
+    #services-card-section .cards{
+        flex-basis: 100%;
+    }
+
+    #founder-image {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    #hero-section p {
+        font-size: 1rem;
+    }
+
+    #process-section h2 {
+        font-size: 2.5rem;
+    }
+
+    #process-section p {
+        font-size: 1rem;
+    }
+
+    .p {
+        font-size: 1rem;
+    }
+
+    #founder-image {
+        width: 100%;
+        height: 225px;
+    }
+}
+
 @media (max-width: 300px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    #process-section h2 {
+        font-size: 2.25rem;
+    }
+
+    .p {
+        font-size: 1rem;
+    }
+
     #founder-image {
         width: 100%;
         height: 225px;
